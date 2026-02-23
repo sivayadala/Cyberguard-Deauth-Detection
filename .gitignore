@@ -1,0 +1,85 @@
+# ============================================================
+# CyberGuard — De-Auth Attack Detection .gitignore
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+.installed.cfg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ML Model Files (large binaries — store with Git LFS if needed)
+*.pkl
+*.h5
+*.model
+*.joblib
+
+# Dataset / Raw Captures (may contain sensitive network data)
+data/raw/
+*.pcap
+*.pcapng
+*.cap
+*.csv
+
+# Logs
+logs/
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Flask
+instance/
+*.db
+*.sqlite3
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Coverage & Testing
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.pytest_cache/
+nosetests.xml
+
+# Distribution
+*.tar.gz
+*.zip
