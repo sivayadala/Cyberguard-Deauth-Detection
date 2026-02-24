@@ -65,16 +65,14 @@ Normal Traffic     Attack Detected
 
 ## 🛠️ Tech Stack
 
-| Category | Technology |
-|---|---|
-| Language | Python 3.8+ |
-| ML Library | scikit-learn |
-| Packet Capture | Scapy |
-| Traffic Analysis | Wireshark |
-| Web Framework | Flask |
-| Real-time Comm | WebSocket |
-| Platform | Kali Linux |
-| Visualization | Matplotlib |
+ Category            | Technology 
+
+ Language           -->  Python 3.8+
+ ML Library         --> scikit-learn 
+ Packet Capture     --> Scapy 
+ Traffic Analysis   --> Wireshark 
+ Web Framework      --> Flask 
+ Platform           --> Kali Linux 
 
 ---
 
@@ -83,32 +81,25 @@ Normal Traffic     Attack Detected
 ```
 cyberguard-deauth-detection/
 │
-├── data/
-│   ├── normal_traffic.csv        # Captured normal traffic
-│   └── attack_traffic.csv        # Captured attack traffic
-│
 ├── model/
-│   ├── train_model.py            # Model training script
-│   ├── random_forest_model.pkl   # Serialized trained model
-│   └── evaluate_model.py         # Evaluation & metrics
+│   ├── train_model.py            # Train Random Forest classifier
+│   ├── test_model.py             # Evaluate and test the model
+│   └── deauth_detector.pkl       # Saved trained model
 │
 ├── capture/
-│   ├── packet_capture.py         # Real-time packet sniffing (Scapy)
-│   └── feature_extraction.py     # Feature engineering from frames
-│
-├── prevention/
-│   └── prevention_module.py      # Corrective packet injection
+│   ├── capture_attack.py         # Capture attack traffic
+│   └── capture_normal.py         # Capture normal traffic
 │
 ├── dashboard/
 │   ├── app.py                    # Flask backend
 │   ├── templates/
-│   │   └── index.html            # Dashboard UI
+│   │   └── 1index.html           # Main dashboard HTML
 │   └── static/
-│       ├── style.css
-│       └── script.js
+│       ├── 1script.js            # Frontend JS
+│       └── 1style.css            # Frontend CSS
 │
-├── notebooks/
-│   └── analysis.ipynb            # EDA and model experiments
+├── screenshots/
+│   └── Screenshot_2025-08-24.png # Dashboard screenshot
 │
 ├── requirements.txt
 ├── .gitignore
