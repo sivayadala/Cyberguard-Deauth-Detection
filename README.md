@@ -64,16 +64,15 @@ Normal Traffic     Attack Detected
 ---
 
 ## 🛠️ Tech Stack
-
- Category            | Technology 
-
- Language           -->  Python 3.8+
- ML Library         --> scikit-learn 
- Packet Capture     --> Scapy 
- Traffic Analysis   --> Wireshark 
- Web Framework      --> Flask 
- Platform           --> Kali Linux 
-
+```
+Technology Stack
+├── Language: Python 3.8+
+├── ML Library: scikit-learn
+├── Packet Capture: Scapy
+├── Traffic Analysis: Wireshark
+├── Web Framework: Flask
+└── Platform: Kali Linux
+```
 ---
 
 ## 📁 Project Structure
