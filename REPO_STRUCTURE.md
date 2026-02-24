@@ -1,3 +1,5 @@
+# 📁 Repository Structure
+```
 cyberguard-deauth-detection/
 │
 ├── model/
@@ -23,3 +25,4 @@ cyberguard-deauth-detection/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```

@@ -192,7 +192,7 @@ Then open your browser at `http://localhost:5000` to view the live dashboard.
 
 ## 👩‍💻 Authors
 
-Naimisha Kundrapu
+Naimisha Kundrapu,
 Siva Yadala
 
 ---
